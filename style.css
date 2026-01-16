@@ -169,7 +169,6 @@ nav a:hover {
 
 .lang-dropdown-content a:last-child {
     border-radius: 0 0 12px 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .lang-dropdown-content a:hover {
@@ -177,7 +176,7 @@ nav a:hover {
 }
 
 .lang-dropdown-content a.active {
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
+    background: #f0ebff;
     font-weight: 600;
 }
 
