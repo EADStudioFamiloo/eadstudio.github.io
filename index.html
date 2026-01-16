@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Familoo - The simple, ethical and free family calendar app.">
+    <title>Familoo - Family Calendar</title>
+    <link rel="icon" type="image/png" href="images/app_icon.png">
+    <script>
+        (function() {
+            var storedLang = localStorage.getItem('familoo-lang');
+            if (storedLang) {
+                window.location.replace(storedLang + '/');
+                return;
+            }
+            
+            var userLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+            var targetLang = 'en';
+            
+            if (userLang === 'pt-br' || userLang.startsWith('pt-br')) {
+                targetLang = 'pt-br';
+            } else if (userLang.startsWith('pt')) {
+                targetLang = 'pt';
+            }
+            else if (userLang === 'es-mx' || userLang === 'es-ar' || userLang === 'es-co' || 
+                     userLang === 'es-cl' || userLang === 'es-pe' || userLang === 'es-ve' ||
+                     userLang === 'es-419' || userLang === 'es-ec' || userLang === 'es-bo' ||
+                     userLang === 'es-py' || userLang === 'es-uy' || userLang === 'es-cr' ||
+                     userLang === 'es-pa' || userLang === 'es-do' || userLang === 'es-gt' ||
+                     userLang === 'es-hn' || userLang === 'es-ni' || userLang === 'es-sv') {
+                targetLang = 'es-latam';
+            } else if (userLang.startsWith('es')) {
+                targetLang = 'es';
+            }
+            else if (userLang.startsWith('fr')) {
+                targetLang = 'fr';
+            } else if (userLang.startsWith('de')) {
+                targetLang = 'de';
+            } else if (userLang.startsWith('it')) {
+                targetLang = 'it';
+            } else if (userLang.startsWith('nl')) {
+                targetLang = 'nl';
+            }
+            
+            window.location.replace(targetLang + '/');
+        })();
+    </script>
+</head>
+<body></body>
+</html>
