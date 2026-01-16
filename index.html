@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Familoo - The simple, ethical and free family calendar app.">
+    <title>Familoo - Family Calendar</title>
+    <link rel="icon" type="image/png" href="images/app_icon.png">
+    <script>
+        // Instant redirect based on browser language
+        (function() {
+            var userLang = navigator.language || navigator.userLanguage;
+            var storedLang = localStorage.getItem('familoo-lang');
+            
+            // If user already chose a language, respect it
+            if (storedLang) {
+                window.location.replace(storedLang + '/');
+                return;
+            }
+            
+            // Auto-detect and redirect immediately
+            if (userLang.startsWith('fr')) {
+                window.location.replace('fr/');
+            } else {
+                window.location.replace('en/');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <!-- This page redirects instantly, user never sees this -->
+</body>
+</html>
