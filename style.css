@@ -608,65 +608,24 @@ footer {
 .screenshots-scroll::-webkit-scrollbar-track { background: transparent; }
 .screenshots-scroll::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 3px; }
 .screenshots-scroll img {
-    height: 320px !important;
-    width: auto !important;
+    height: 320px;
+    width: auto;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
     scroll-snap-align: start;
     flex-shrink: 0;
     transition: transform 0.2s ease;
     display: block;
+    cursor: zoom-in;
 }
 .screenshots-scroll img:hover { transform: scale(1.03); }
 @media (max-width: 768px) {
-    .screenshots-scroll img { height: 160px !important; }
+    .screenshots-scroll img { height: 220px; }
 }
 
 /* ============================================
-   VIDEO SECTION
+   LIGHTBOX
    ============================================ */
-#video {
-    padding: 4rem 2rem;
-    text-align: center;
-    background: white;
-}
-#video h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    background: var(--gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-.video-wrapper {
-    max-width: 860px;
-    width: 100%;
-    margin: 0 auto;
-}
-.video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
-}
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-/* ============================================
-   LIGHTBOX SCREENSHOTS
-   ============================================ */
-.screenshots-scroll img {
-    cursor: zoom-in;
-}
 .lightbox-overlay {
     display: none;
     position: fixed;
@@ -702,4 +661,41 @@ footer {
     align-items: center;
     justify-content: center;
     line-height: 1;
+}
+
+/* ============================================
+   VIDEO SECTION
+   ============================================ */
+#video {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: white;
+}
+#video h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.video-wrapper {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+.video-container iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0;
 }
