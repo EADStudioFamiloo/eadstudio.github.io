@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eadstudiofamiloo.github.io/eadstudio.github.io/sitemap.xml
