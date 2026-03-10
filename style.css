@@ -594,9 +594,9 @@ footer {
 }
 .screenshots-scroll {
     display: flex;
-    gap: 1rem;
+    gap: 0.75rem;
     overflow-x: auto;
-    padding: 1rem 0 2rem 0;
+    padding: 1rem 1rem 2rem 1rem;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
@@ -608,16 +608,19 @@ footer {
 .screenshots-scroll::-webkit-scrollbar-track { background: transparent; }
 .screenshots-scroll::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 3px; }
 .screenshots-scroll img {
-    height: 280px;
-    width: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    height: 220px !important;
+    width: auto !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
     scroll-snap-align: start;
     flex-shrink: 0;
     transition: transform 0.2s ease;
+    display: block;
 }
 .screenshots-scroll img:hover { transform: scale(1.03); }
-@media (max-width: 768px) { .screenshots-scroll img { height: 200px; } }
+@media (max-width: 768px) {
+    .screenshots-scroll img { height: 160px !important; }
+}
 
 /* ============================================
    VIDEO SECTION
@@ -635,25 +638,25 @@ footer {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.video-container {
-    max-width: 900px;
+.video-wrapper {
+    max-width: 860px;
     width: 100%;
     margin: 0 auto;
+}
+.video-container {
     position: relative;
-    padding-bottom: min(56.25%, 506px);
+    width: 100%;
+    padding-bottom: 56.25%;
     height: 0;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 .video-container iframe {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    border-radius: 16px;
-}
-@media (max-width: 768px) {
-    .video-container {
-        padding-bottom: 56.25%;
-    }
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
