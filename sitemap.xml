@@ -1,158 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Français -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- English -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/en/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- Deutsch -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/de/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- Español -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/es/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- Español Latinoamérica -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- Italiano -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/it/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- Nederlands -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- Português -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
-  <!-- Português Brasil -->
   <url>
     <loc>https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/fr/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/de/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es/"/>
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/es-latam/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/it/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/nl/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://eadstudiofamiloo.github.io/eadstudio.github.io/pt-br/"/>
   </url>
 
 </urlset>
